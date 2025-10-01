@@ -1,0 +1,27 @@
+.gradient { 
+    background-image:
+        radial-gradient(80rem 40rem at 20% -10%, rgba(139, 92, 246, .25), transparent),
+        radial-gradient(70rem 40rem at 80% 0%, rgba(34, 211, 238, .20), transparent);
+}
+
+.brand-gradient {
+    background: linear-gradient(135deg, rgb(139 92 246), rgb(6 182 212));
+}
+
+.brand-text-gradient {
+    background: linear-gradient(135deg, rgb(139 92 246), rgb(6 182 212));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(8px);
+}
+
+input:focus {
+    border-color: rgb(139 92 246);
+    outline-color: rgb(139 92 246);
+    outline: 2px solid transparent;
+    box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.2);
+}
